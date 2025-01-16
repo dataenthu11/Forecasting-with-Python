@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 # Read Excel file
 df = pd.read_excel(r'C:\Users\vaish\Downloads\Amazon_Sales.xlsx', engine='openpyxl')
 print(df.head())
+ 
+
 
 import numpy as np
 # We need to see if we have any missing data
